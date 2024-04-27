@@ -26,13 +26,8 @@ The Soda Flavor Ranking API is designed to provide functionalities for users to 
 ### 2.2 Data Model
 
 - **Soda**:
-  - `id`: Unique identifier for the soda.
   - `name`: Name of the soda.
-  - `flavor`: Flavor of the soda.
-  - `brand`: Brand of the soda.
-  - `description`: Description of the soda.
-  - `average_rating`: Average rating given by users (computed based on user ratings).
-  - `total_ratings`: Total number of ratings given by users.
+  - `rating`: Rating from 0 -> 5 on how yomy the soda is.
 
 ### 2.3 Request/Response Payloads
 
